@@ -15,8 +15,6 @@ registry:
   username: macia
   # Always use an access token rather than real password when possible.
   password: admin
-  #PubkeyAuthentication: yes
-  #PasswordAuthentication: no
 
 # Inject ENV variables into containers (secrets come from .env).
 # Remember to run `kamal env push` after making changes!
