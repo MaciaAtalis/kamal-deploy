@@ -150,8 +150,6 @@ GEM
     nio4r (2.7.0)
     nokogiri (1.16.0-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.16.0-x86_64-linux)
-      racc (~> 1.4)
     psych (5.1.2)
       stringio
     public_suffix (5.0.4)
@@ -210,7 +208,6 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.7.0-arm64-darwin)
-    sqlite3 (1.7.0-x86_64-linux)
     sshkit (1.22.0)
       mutex_m
       net-scp (>= 1.1.2)
@@ -257,7 +254,7 @@ DEPENDENCIES
   kamal
   nokogiri
   puma (~> 5.0)
-  rails (~> 7.0.6)
+  rails (~> 7.0.6)!
   redis (~> 4.0)
   selenium-webdriver
   sprockets-rails
@@ -269,7 +266,7 @@ DEPENDENCIES
   webdrivers
 
 RUBY VERSION
-   ruby 3.0.0p0
+   ruby 3.2.2p53
 
 BUNDLED WITH
-   2.2.3
+   2.4.17
